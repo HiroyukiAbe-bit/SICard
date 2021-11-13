@@ -1,0 +1,32 @@
+<template>
+  <div>
+    <Header/>
+    <Content/>
+    <Footer/>
+  </div>
+</template>
+
+<script>
+import Header from '@/components/Header.vue'
+import Content from '@/components/Content.vue'
+import Footer from '@/components/Footer.vue'
+export default {
+  components: {
+    Header,
+    Footer,
+    Content,
+  }
+};
+</script>
+
+<style>
+.c_size {
+  width: 300px;
+}
+.c_name {
+  width: 150px;
+}
+.h_max {
+  height:100%;
+}
+</style>
